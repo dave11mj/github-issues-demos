@@ -58,17 +58,18 @@
       .feedback-container {
         position: fixed;
         bottom: 0;
-        left: 0;
+        right: 0;
         pointer-events: none;
+        z-index: 9999;
       }
 
       .feedback {
-        padding: 10px 20px 10px 10px;
+        padding: 10px 20px 10px 20px;
       }
 
       .feedback--good {
         background-color: rgba(0, 90, 0, 0.6);
-        border-radius: 0 10px 0 0;
+        border-radius: 10px 10px 0 0;
       }
 
       .feedback--bad {
